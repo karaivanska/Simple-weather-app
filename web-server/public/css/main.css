@@ -1,0 +1,17 @@
+.navbar-bg{
+      background-color: #6f42c1!important;      
+}
+.navbar-light{
+      color:white!important;
+}
+.footer {  
+      position: absolute;    
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #432352;
+      color: white;
+      text-align: center;
+      height: 50px;
+      line-height: 3;
+    }

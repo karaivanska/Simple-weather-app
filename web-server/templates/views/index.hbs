@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+      {{>scripts}}
+</head>
+
+<body>
+      {{>header}}
+      <div class="container">
+            <h1>{{title}}</h1>
+            <form  name="weatherForm">
+                  <div class="form-group">
+                        <label for="exampleInputEmail1">Location</label>
+                        <input type="text" class="form-control" name="location" id="location"
+                              aria-describedby="emailHelp" placeholder="Enter the location area">
+
+                  </div>
+                  <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+            <p id="message-one"> </p>
+            <p id="message-two"> </p>
+            <p>Created by {{name}}</p>
+      </div>
+      {{>footer}}
+      <script src="../../public/js/app.js"></script>
+</body>
+
+</html>
